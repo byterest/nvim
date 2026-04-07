@@ -1,0 +1,55 @@
+# =========================
+# Neovim cache / temp
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.cache/
+.netrwhist
+shada/
+sessions/
+
+# =========================
+# Plugin managers
+# =========================
+
+# lazy.nvim
+lazy-lock.json   # （可选：如果你想锁版本就删掉这行）
+
+# packer.nvim
+plugin/packer_compiled.lua
+
+# =========================
+# Installed plugins (不要提交)
+# =========================
+pack/*
+site/pack/*
+
+# =========================
+# LSP / Mason
+# =========================
+mason/
+lsp.log
+
+# =========================
+# Treesitter
+# =========================
+parser/
+queries/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Optional (看你用不用)
+# =========================
+# 如果你用 session 插件
+Session.vim
+
+# 如果你用 dap
+dap.log
